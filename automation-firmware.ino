@@ -112,7 +112,7 @@ void reconnect() {
     Serial.println(mqtt_pass);
     if (client.connect("ESP8266Client", mqtt_user, mqtt_pass)) {
       Serial.println("connected");
-      client.publish("connection", ip_address);
+      client.publish("connection", "Hello");
       client.subscribe("/switch/1");
     } else {
       Serial.print("failed, rc=");
