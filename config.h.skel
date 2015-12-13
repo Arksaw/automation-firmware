@@ -1,0 +1,20 @@
+/*
+ config.h
+*/
+
+// Wifi
+const char* wifi_ssid = "***";
+const char* wifi_pass = "*******************";
+
+// MQTT
+const char* mqtt_host = "********";
+const int   mqtt_port = 10422;
+const char* mqtt_user = "foo";
+const char* mqtt_pass = "bar";
+
+// User
+const char* uuid = "foobar";
+
+// HARDAWRE
+const int GPIO_PIN_1 = 1;
+const int GPIO_PIN_2 = 2;
