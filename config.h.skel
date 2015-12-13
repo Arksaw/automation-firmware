@@ -3,18 +3,18 @@
 */
 
 // Wifi
-const char* wifi_ssid = "***";
-const char* wifi_pass = "*******************";
+const char* wifi_ssid = "ssid_here";
+const char* wifi_pass = "super_secret_wifi_password";
 
 // MQTT
-const char* mqtt_host = "********";
+const char* mqtt_host = "foo.mtqttbroker.com"
 const int   mqtt_port = 10422;
-const char* mqtt_user = "foo";
-const char* mqtt_pass = "bar";
+const char* mqtt_user = "userhere";
+const char* mqtt_pass = "passhere";
 
 // User
 const char* uuid = "foobar";
 
 // HARDAWRE
-const int GPIO_PIN_1 = 1;
+const int GPIO_PIN_1 = 0;
 const int GPIO_PIN_2 = 2;
